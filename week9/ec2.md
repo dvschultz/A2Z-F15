@@ -101,9 +101,11 @@ This comes from the [headless Processing wiki](https://github.com/processing/pro
 * Install Java.
 
 <pre>
+$ sudo apt-get install default-jre
 $ sudo add-apt-repository ppa:webupd8team/java
 $ sudo apt-get update
 $ sudo apt-get install oracle-java8-installer
+$ sudo update-java-alternatives -s java-8-oracle
 </pre>
 
 * Install packages that create a "fake" display for Processing to render to.
